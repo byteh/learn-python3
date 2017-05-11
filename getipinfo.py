@@ -3,6 +3,7 @@ import sys
 import json
 #import urllib
 from urllib import request
+#for UnicodeEncodeError: 'ascii' codec can't encode characters in position 40-41: ordinal not in range(128)
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
 ip="218.4.255.255"
