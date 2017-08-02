@@ -2,8 +2,8 @@
  #coding:utf-8
 
 #1.初始化两个句子
-st_1 = "dogs chase cats ."
-st_2 = "dogs hate cats !"
+st_1 = "dogs chase cats like dogs ."
+st_2 = "dogs hate cats like cats !"
 
 #2.从字符串中创建词的集合
 st_1_words = set(st_1.split())
