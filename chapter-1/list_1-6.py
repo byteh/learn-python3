@@ -62,6 +62,7 @@ a_queue = []
 a_queue.append(1)
 a_queue.append(2)
 a_queue.append(3)
+print "a_queue lenth:",len(a_queue)
 print a_queue.pop(0)
 print a_queue.pop(0)
 print a_queue.pop(0)
