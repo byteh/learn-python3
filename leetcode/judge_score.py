@@ -19,7 +19,16 @@ def averageScore(n):
         if minScore > k:
             minScore = k
         sumScore += k
-    return {'sum':s, 'max':maxScore,'min':minScore,'avg':float(sumScore - maxScore - minScore) / n -2}
+    return {'sum':s, 'max':maxScore,'min':minScore,'avg':float(sumScore - maxScore - minScore) / (n -2)}
 
-avg = averageScore(10)
-print(avg)
+def avgScore(n):
+    s = [random.randint(10,100) for i in range(n)]
+    maxScore = max(s)
+    minScore = min(s)
+    sumScore = sum(s)
+    return {'sum': s, 'max': maxScore, 'min': minScore, 'avg': float(sumScore - maxScore - minScore) / (n - 2)}
+
+print(averageScore(10))
+
+print(avgScore(10))
+
