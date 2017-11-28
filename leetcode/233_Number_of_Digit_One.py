@@ -21,7 +21,7 @@ class Solution(object):
                 postion = numberStr.find('1',postion) #字符串查找
                 if(postion >=0):
                     postion +=1
-                    # print numberStr,postion
+                    print numberStr,postion
                     iCnt += 1
             if iCnt > 0 :
                 result += iCnt
